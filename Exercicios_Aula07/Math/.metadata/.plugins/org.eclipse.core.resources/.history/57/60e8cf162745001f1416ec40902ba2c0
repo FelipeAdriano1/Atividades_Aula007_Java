@@ -1,0 +1,15 @@
+package numAleatorio;
+
+public class numAleatorio {
+
+	public static void main(String[] args) {
+		
+		int min = 0;
+		int max = 100;
+		
+		for(int i = min; i <= max; i++) {
+			System.out.println(Math.random(i));
+			break;
+		}
+	}
+}

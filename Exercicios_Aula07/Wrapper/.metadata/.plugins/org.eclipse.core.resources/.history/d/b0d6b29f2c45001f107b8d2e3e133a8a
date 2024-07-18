@@ -1,0 +1,10 @@
+package somaMediaVetor;
+import java.util.random;
+
+public class somaMediaVetor {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

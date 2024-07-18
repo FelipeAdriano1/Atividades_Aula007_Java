@@ -1,0 +1,13 @@
+package exerciciosString;
+
+public class isPalindromo {
+	public static void main(String[] args) {
+        
+		String s = "Hello, World!";
+        
+		System.out.println("Tamanho da string: " + s.length());
+		System.out.println("caracter no índice 4: " + s.charAt(4));
+		System.out.println("Substring (0-3): " + s.substring(0, 3));
+		System.out.println("Replace 'World' with 'Java': " + s.replace("World", "Java"));
+    }
+}

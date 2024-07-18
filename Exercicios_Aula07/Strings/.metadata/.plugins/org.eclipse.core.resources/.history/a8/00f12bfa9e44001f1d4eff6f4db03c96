@@ -1,0 +1,16 @@
+package contarVogais;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class contarQuantVogais {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		String palavra;
+		
+		System.out.println("Digite uma palavra: ");
+		palavra = reader.readLine();
+	}
+}

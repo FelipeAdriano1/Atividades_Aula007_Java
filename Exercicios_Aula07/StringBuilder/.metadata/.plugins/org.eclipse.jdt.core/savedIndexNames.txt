@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\Felipe\OneDrive\Documentos\IFSP\3SEMESTRE\Linguagem de Programação 3\Exercicios_Aula07\StringBuilder\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2258120940.index
+1050096979.index
+4265634419.index

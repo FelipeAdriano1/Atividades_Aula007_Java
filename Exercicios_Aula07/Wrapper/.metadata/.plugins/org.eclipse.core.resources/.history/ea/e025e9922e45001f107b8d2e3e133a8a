@@ -1,0 +1,15 @@
+package somaString;
+
+public class SomaString {
+
+	public static void main(String[] args) {
+		
+		String[] numeros = new String[5];
+		
+		numeros[0] = "321";
+		numeros[1] = "45";
+		numeros[2] = "332";
+		numeros[3] = "90";
+		numeros[4] = "65";
+	}
+}

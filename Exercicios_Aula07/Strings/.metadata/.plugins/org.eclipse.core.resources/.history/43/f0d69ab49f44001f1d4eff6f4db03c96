@@ -1,0 +1,24 @@
+package contarVogais;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class contarQuantVogais {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		String palavra;
+		
+		System.out.println("Digite uma palavra: ");
+		palavra = reader.readLine();
+		reader.close();
+		
+		while(palavra.contains("a")) {
+			int num = 0;
+			num = num + 1;
+			System.out.println("A palavra tem vogal. Número de vogais: " + num);
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package hipotenusa;
+
+public class hipotenusa {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Valor absoluto: " + Math.max(10, 999));
+	}
+}

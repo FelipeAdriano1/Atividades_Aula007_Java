@@ -1,0 +1,34 @@
+package StringBuilder;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class ArrayToString {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		int quant;
+		
+		System.out.println("Quantas palavras você quer concatenar ?\n");
+		
+		quant = reader.read();
+		
+		String[] palavras = new String[quant];
+		
+		for(int i = 0; i < palavras.length; i++) {
+			System.out.println("Digite a palavra a ser inserida no vetor: ");
+		}
+		
+		System.out.println("Concatenando palavras do vetor...\n");
+		
+		for(int i = 0; i < palavras.length; i++) {
+			StringBuilder sb = new StringBuilder(palavras[i]);
+			
+			System.out.print(sb.toString());
+		}
+		
+		System.out.println("\n\nPalavras concatenadas !");
+	}
+}

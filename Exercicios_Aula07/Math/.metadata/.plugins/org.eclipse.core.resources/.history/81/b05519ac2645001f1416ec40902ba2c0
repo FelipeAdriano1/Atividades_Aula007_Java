@@ -1,0 +1,12 @@
+package numAleatorio;
+
+public class numAleatorio {
+
+	public static void main(String[] args) {
+		
+		int min = 0;
+		int max = 100;
+		
+		System.out.println("Número aleatório entre 1 e 100: " + Math.round(max));
+	}
+}

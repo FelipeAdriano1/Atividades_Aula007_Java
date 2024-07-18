@@ -1,0 +1,26 @@
+package somaString;
+
+public class SomaString {
+
+	public static void main(String[] args) {
+		
+		String[] numeros = new String[5];
+		String resultado;
+		Integer soma = 0;
+		
+		numeros[0] = "321";
+		numeros[1] = "45";
+		numeros[2] = "332";
+		numeros[3] = "90";
+		numeros[4] = "65";
+		
+		for(int i = 0; i < numeros.length; i++) {
+			
+			soma += soma.parseInt(numeros[i]);
+		}
+		
+		resultado = soma.toString();
+		
+		System.out.println(soma);
+	}
+}

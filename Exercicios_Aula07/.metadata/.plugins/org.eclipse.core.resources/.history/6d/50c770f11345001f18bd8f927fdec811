@@ -1,0 +1,15 @@
+package StringBuilder;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class ArrayToString {
+
+	public static void main(String[] args) {
+		
+		String[] palavras = new String[3];
+		
+		StringBuilder sb = new StringBuilder();
+		System.out.println(sb.toString());
+	}
+}

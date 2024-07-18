@@ -1,0 +1,13 @@
+package WrapperClasses;
+
+public class StringToInt {
+
+	public static void main(String[] args) {
+		
+		Integer inteiro = Integer.valueOf(10);
+		int valor = inteiro.intValue();
+		
+		System.out.println("Valor inteiro: " + inteiro);
+		System.out.println("Valor inteiro do tipo int: " + valor);
+	}
+}

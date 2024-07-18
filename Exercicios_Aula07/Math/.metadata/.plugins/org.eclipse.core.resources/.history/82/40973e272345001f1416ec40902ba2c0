@@ -1,0 +1,8 @@
+package hipotenusa;
+
+public class hipotenusa {
+
+	public static void main(String[] args) {
+		
+	}
+}
