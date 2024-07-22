@@ -1,0 +1,38 @@
+package listaTarefas;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListaTarefas {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		List<String> lista = new ArrayList<>();
+		String tarefa;
+		String buscar;
+		
+		System.out.println("Digite a tarefa que quer adicionar a lista: ");
+		tarefa = reader.readLine();
+		
+		lista.add(tarefa);
+		
+		System.out.println("\nDigite a tarefa que quer procurar na lista: ");
+		buscar = reader.readLine();
+		reader.close();
+		
+		for(String t : lista) {
+			if(t.equals(buscar)) {
+				System.out.println("\nTarefa (" + t + ") encontrada com sucesso !");
+			}
+			else {
+				System.out.println("\nTarefa não encontrada.");
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,22 @@
+package maiorMenor;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class MaiorMenor {
+
+	public static void main(String[] args) {
+		
+		List<Integer> lista = new ArrayList<>();
+		Random rand = new Random();
+		
+		for(int i = 0; i < 10; i++) {
+			lista.add(rand.nextInt(100));
+		}
+		
+		for(int i = 0; i < 10; i++) {
+			System.out.println(lista.get(i));		
+		}
+	}
+}

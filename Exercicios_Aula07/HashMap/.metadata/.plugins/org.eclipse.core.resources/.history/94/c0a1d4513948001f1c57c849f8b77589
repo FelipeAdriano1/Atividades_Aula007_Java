@@ -1,0 +1,16 @@
+package contarFrequencia;
+
+public class ContarFrequencia {
+
+	public static void main(String[] args) {
+		
+		String textoExemplo = "Dias ensolarados, sorvetes derretendo e risadas à beira-mar.";
+		
+		textoExemplo = textoExemplo.toLowerCase();
+		
+		textoExemplo.replaceAll(".", " ");
+		textoExemplo.replaceAll(",", " ");
+		
+		System.out.println(textoExemplo);
+	}
+}

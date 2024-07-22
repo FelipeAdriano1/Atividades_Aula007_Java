@@ -1,0 +1,11 @@
+package arrayStringParaArquivo;
+
+import java.io.*;
+
+public class ArrayStringArquivo {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

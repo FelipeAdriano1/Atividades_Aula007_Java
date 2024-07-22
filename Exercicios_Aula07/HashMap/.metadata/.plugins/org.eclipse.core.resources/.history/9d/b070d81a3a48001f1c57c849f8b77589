@@ -1,0 +1,32 @@
+package contarFrequencia;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class ContarFrequencia {
+
+	public static void main(String[] args) throws IOException {
+		
+		String textoExemplo = "Dias ensolarados, sorvetes derretendo e risadas à beira-mar.";
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		String alvo;
+		int quant = 0;
+		
+		textoExemplo = textoExemplo.toLowerCase();
+		
+		textoExemplo = textoExemplo.replace(".", " ");
+		textoExemplo = textoExemplo.replace(",", "");
+		
+		System.out.println(textoExemplo + "\n");
+		
+		System.out.println("Digite a palavra que quer contar a frequência: ");
+		alvo = reader.readLine();
+		
+		if(textoExemplo.contains(alvo)) {
+			quant = quant + 1;
+		}
+		
+		System.out.println("\nNúmero de vezes que a palavra (" + alvo + ") Se repete no texto: " + quant);
+	}
+}

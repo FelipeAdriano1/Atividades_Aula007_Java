@@ -1,0 +1,11 @@
+package copiarConteudo;
+
+import java.io.*;
+
+public class CopiarConteudo {
+
+	public static void main(String[] args) {
+		
+		BufferedWriter ler = new BufferedWriter(new FileReader("C:\\Users\\Felipe\\OneDrive\\Documentos\\IFSP\\3SEMESTRE\\Linguagem de Programação 3\\Exercicios_Aula07\\InputOutput\\lerArquivo"));
+	}
+}

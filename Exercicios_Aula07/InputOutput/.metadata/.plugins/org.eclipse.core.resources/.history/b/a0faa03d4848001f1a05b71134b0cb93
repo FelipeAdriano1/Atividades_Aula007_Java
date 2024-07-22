@@ -1,0 +1,27 @@
+package copiarConteudo;
+
+import java.io.*;
+
+public class CopiarConteudo {
+
+	public static void main(String[] args) {
+		
+		try {
+			BufferedReader ler = new BufferedReader(new FileReader("C:\\Users\\Felipe\\OneDrive\\Documentos\\IFSP\\3SEMESTRE\\Linguagem de Programação 3\\Exercicios_Aula07\\InputOutput\\lerArquivo\\exemplo.txt"));
+			BufferedWriter escrever = new BufferedWriter(new FileWriter("Copiado.txt"));
+			String texto;
+			
+			while((texto = ler.readLine()) != null) {
+				
+				System.out.println("Linha: " + texto);
+				escrever.write(texto);
+				escrever.newLine();
+			}
+			ler.close();
+			escrever.close();
+		}
+		catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

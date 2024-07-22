@@ -1,0 +1,22 @@
+package antesOuDepois;
+
+import java.util.Calendar;
+
+public class AntesOuDepois {
+
+	public static void main(String[] args) {
+		
+		Calendar cal1 = Calendar.getInstance();
+		Calendar cal2 = Calendar.getInstance();
+		
+		cal1.set(2024, 6, 15);
+		cal2.set(2024, 7, 20);
+		
+		if(cal1.compareTo(cal2) == -1) {
+			System.out.println("A data 1 antes da data 2.");
+		}
+		else {
+			System.out.println("A data 1 é depois da data 2.");
+		}
+	}
+}

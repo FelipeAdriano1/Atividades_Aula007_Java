@@ -1,0 +1,13 @@
+package arrayStringParaArquivo;
+
+import java.io.*;
+
+public class ArrayStringArquivo {
+
+	public static void main(String[] args) {
+		
+		String texto = "No auge do sol, o verão se desvela, Um abraço ardente da estação mais bela. Os dias se alongam, preguiçosos e quentes, E o mundo se veste de cores reluzentes.";
+		String[] novoTexto = texto.split(" ");
+		
+	}
+}

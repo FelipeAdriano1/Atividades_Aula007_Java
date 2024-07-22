@@ -1,0 +1,49 @@
+package ordenarNumeros;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class OrdenarNumeros {
+
+	public static void main(String[] args) {
+		
+		Random rand = new Random();
+		List<Integer> lista = new ArrayList<>();
+		
+		for(int i = 0; i < 4; i++) {
+			
+			lista.add(rand.nextInt(100));
+		}
+		
+		System.out.println("Lista com valores aleatórios de 1 a 100: ");
+		
+		for(int i = 0; i < 4; i++) {
+			
+			System.out.println(lista.get(i));
+		}
+		
+		System.out.println("Ordenando de forma crescente...\n");
+		
+		int aux;
+		int aux2 = 0;
+		
+		for(int i = 0; i < lista.size(); i++) {
+			for(int j = 0; j < lista.size(); j++) {
+	
+				if(lista.get(i) < lista.get(j)) {
+					aux = lista.get(i);
+					lista.set(i, lista.get(j));
+					lista.set(j, aux);
+				}
+			}
+		}
+		
+		System.out.println("Lista ordenada de forma crescente.");
+		
+		for(int i = 0; i < 4; i++) {
+			
+			System.out.println(lista.get(i));
+		}
+	}
+}

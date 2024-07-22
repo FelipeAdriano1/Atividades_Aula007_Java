@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\Felipe\OneDrive\Documentos\IFSP\3SEMESTRE\Linguagem de Programação 3\Exercicios_Aula07\InputOutput\.metadata\.plugins\org.eclipse.jdt.core
+175422710.index
+1865797976.index
+1279125563.index

@@ -1,0 +1,18 @@
+package copiarConteudo;
+
+import java.io.*;
+
+public class CopiarConteudo {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader ler = new BufferedReader(new FileReader("C:\\Users\\Felipe\\OneDrive\\Documentos\\IFSP\\3SEMESTRE\\Linguagem de Programação 3\\Exercicios_Aula07\\InputOutput\\lerArquivo"));
+		String texto;
+		String textoArm;
+		
+		while((texto = ler.readLine()) != null) {
+			
+			textoArm = texto;
+		}
+	}
+}

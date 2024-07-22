@@ -1,0 +1,20 @@
+package contarFrequencia;
+
+public class ContarFrequencia {
+
+	public static void main(String[] args) {
+		
+		String textoExemplo = "Dias ensolarados, sorvetes derretendo e risadas à beira-mar.";
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		textoExemplo = textoExemplo.toLowerCase();
+		
+		textoExemplo = textoExemplo.replace(".", " ");
+		textoExemplo = textoExemplo.replace(",", "");
+		
+		System.out.println(textoExemplo + "\n");
+		
+		System.out.println("Digite a palavra que quer contar a frequência: ");
+		
+	}
+}

@@ -1,0 +1,11 @@
+package lerArquivo;
+
+import java.io.*;
+
+public class LerArquivo {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedWriter escrever = new BufferedWriter(new FileWriter("exemplo.txt"));
+	}
+}

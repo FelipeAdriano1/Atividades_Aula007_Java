@@ -1,0 +1,2 @@
+Olá, estou escrevendo neste arquivo txt através de Java.
+Esta é uma nova linha escrita através de Java.

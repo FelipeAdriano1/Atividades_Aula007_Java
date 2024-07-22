@@ -1,0 +1,19 @@
+package contato;
+
+import java.util.HashMap;
+
+public class Contato {
+
+	public static void main(String[] args){
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		HashMap hm = new HashMap();
+		String nome;
+		Integer telefone;
+		
+		System.out.println("Digite o nome do contato (chave): ");
+		nome = reader.readeLine();
+		
+		System.out.println("\nDigite o telefone do contato (valor): ");
+	}
+}

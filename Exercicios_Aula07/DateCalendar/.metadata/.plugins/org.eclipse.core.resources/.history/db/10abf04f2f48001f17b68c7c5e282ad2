@@ -1,0 +1,23 @@
+package diferencaDatas;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class DiferencaDatsa {
+
+	public static void main(String[] args) {
+	
+	        Calendar cal1 = Calendar.getInstance();
+	        Calendar cal2 = Calendar.getInstance();
+	        
+	        cal1.set(2024, Calendar.JULY, 10);
+	        cal2.set(2024, Calendar.JULY, 20);
+
+	        Date date1 = cal1.getTime();
+	        Date date2 = cal2.getTime();
+
+	        cal1.roll(cal2.DAY_OF_MONTH, 10);
+	        
+	        System.out.println("Diferença em dias: " + cal1.getTime());
+	}
+}

@@ -1,0 +1,16 @@
+package antesOuDepois;
+
+import java.util.Calendar;
+
+public class AntesOuDepois {
+
+	public static void main(String[] args) {
+		
+		Calendar cal1 = Calendar.getInstance();
+		Calendar cal2 = Calendar.getInstance();
+		
+		cal1.compareTo(cal2);
+		
+		
+	}
+}
